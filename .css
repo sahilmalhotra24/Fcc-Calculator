@@ -1,0 +1,108 @@
+/* Background image */
+body {
+	background: url(https://static.vecteezy.com/system/resources/previews/000/106/719/original/vector-abstract-blue-wave-background.jpg) no-repeat center center;
+    background-size: cover;
+}
+h1{
+  background-color:blue;
+  color:BLACK;
+  font-weight : 10;
+}
+
+/* Chrome blue outline */
+button:focus {
+	outline: 50;
+}
+
+/* Common properties */
+.calulator,
+.display,
+.button {
+	cursor: pointer;
+}
+
+.display,
+.button {
+	font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 50;
+  border: 0;
+}
+
+/* Main div */
+.calculator {
+	position: absolute;
+	top: -10 ;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: 316px;
+	width: 228px;
+	background: white;
+}
+
+/* Display calculation */
+.display {
+	box-sizing: border-box;
+	display: block;
+	width: inherit;
+	margin-top: 28px;
+	padding: 0 10px;
+	background: ;
+  color: blue;
+  font-size: 45px;
+  text-align: right;
+}
+
+/* All buttons */
+.button {
+	height: 47px;
+	width: 57px;
+	float: left;
+	padding: 2px 0 3px 0;
+	background: gray;
+  font-size: 22px;
+}
+
+.button:active {
+	background: white;
+}
+
+/* Top row - Clear, sign, percentage */
+.top {
+	background: gray;
+}
+
+.top:active {
+	background: white;
+}
+
+/* Right column - All operators */
+.operator {
+	background: blue;
+	color: black;
+	font-size: 28px;
+}
+
+.operator:active {
+	background: white;
+}
+
+/* Decimal was too small */
+.decimal {
+	font-weight: 400;
+}
+
+/* Adding border radius */
+.calculator {
+	border-radius: 6px;
+}
+
+.equal {
+	border-bottom-right-radius: 6px;
+}
+
+.double {
+	width: 114px;
+	border-bottom-left-radius: 6px;
+}
